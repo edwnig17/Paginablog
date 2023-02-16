@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: black;
+  }
+  
+  header {
+    background-color:black ;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    color:azure;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  
+  nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li{
+    margin: 0 10px;
+    color: aqua;
+  }
+  
+  a {
+    color: crimson;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+.box-0{
+  background-image: url(https://educacion30.b-cdn.net/wp-content/uploads/2019/07/charlas-TED-de-programacion.jpg);
+  
+  
+}
+.image{
+    width: 500x;
+    position: relative;
+    left: 600px;
+    right: 600px;
+}
+
+p{
+  text-align: center;
+    color: rgb(179, 250, 109);
+}
+
+.box-1{
+  background-color: rgb(80, 78, 78);
+ width: 130rem;
+ height: 30rem;
+ text-align: center;
+}
+
+.box-1-content{
+  position: relative;
+  right: 8rem;
+  top: 3.5rem;
+}
+
+
+.box-2{
+  
+  text-align: center;
+}
+
+.box-3{
+text-align: center;
+}
+
+.box-3-image{ 
+  position: relative;
+  left: 260px;
+  top: +1px;
+ display: flex; 
+ justify-content:space-between;
+ 
+}
+.box-3-p{
+  align-items: center;
+}
+
+
+
+
+.footer{
+  background-color:rgb(56, 56, 56);
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer p{
+  color: white;
+  font-size: 18px;
+  
+}
